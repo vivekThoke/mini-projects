@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.canva {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.spana {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+#blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 3px solid black;
+    cursor: pointer;
+
+}
+
+#red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#orangered {
+    width: 100px;
+    height: 100px;
+    background-color:orangered;
+    border: 3px solid black;
+    cursor: pointer;
+}
