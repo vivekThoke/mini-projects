@@ -19,12 +19,15 @@ form.addEventListener("click", function(e){
 
         if (bmi < 18.6) {
             result.innerHTML = `<span>Your are Under weight ${bmi}</span>`
+            result.style.color = "red";
         }
         else if(bmi >18.6 && bmi < 24.9) {
             result.innerHTML = `<span>Your are Normal Weight ${bmi}</span>`
+            result.style.color = "green"
         }
         else {
             result.innerHTML = `<span>Your are Over Weight ${bmi}</span>`
+            result.style.color = "red";
         }
 
     }
