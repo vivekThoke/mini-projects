@@ -1,37 +1,37 @@
-// const user = {
-//     name: "Partial Partap",
-//     email: "partialpartap@pre.com",
-//     signedIn: true,
-//     location: "banglore",
+const user = {
+    name: "Partial Partap",
+    email: "partialpartap@pre.com",
+    signedIn: true,
+    location: "banglore",
 
-//     dataFetch: function(){
-//         console.log("There might be undefined in console")
-//     },
+    dataFetch: function(){
+        console.log("There might be undefined in console")
+    },
 
-//     newUser: function(){
-//         return `This user share same geolocation ${this.location}`
-//     }
-// }
+    newUser: function(){
+        return `This user share same geolocation ${this.location}`
+    }
+}
 
-// console.log(user.email)
-// console.log(user.dataFetch())
-// console.log(user.newUser())
+console.log(user.email)
+console.log(user.dataFetch())
+console.log(user.newUser())
 
-// class implementAbstraction {
-//     set(x, y) {
-//         this.a = x;
-//         this.b = y;
-//     }
+class implementAbstraction {
+    set(x, y) {
+        this.a = x;
+        this.b = y;
+    }
 
-//     implemenation() {
-//         console.log(`a has the value of ${this.a}`)
-//         console.log(`b has the value of ${this.b}`)
-//     }
-// }
+    implemenation() {
+        console.log(`a has the value of ${this.a}`)
+        console.log(`b has the value of ${this.b}`)
+    }
+}
 
-// const newObj = new implementAbstraction();
-// newObj.set(11, 33);
-// newObj.implemenation();
+const newObj = new implementAbstraction();
+newObj.set(11, 33);
+newObj.implemenation();
 
 const product = {
     name: "fillow",
