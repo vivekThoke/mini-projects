@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bind</title>
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.655)">
+    <Button style="background-color: chocolate; padding: 20px; display: flex; align-items: center; justify-content: center;
+    margin-top: 4rem ">Clicked</Button>
+    
+</body>
+
+<script>
+    class NewJavascript{
+        constructor(){
+            this.libaray = "Javascript"
+            this.server = "https://localhost/javascript.con"
+
+            document.querySelector("button").addEventListener("click", this.ButtonClicked.bind(this))
+        }
+    
+        ButtonClicked(){
+            console.log("This button has been Clicked")
+            console.log(this.server)
+        }
+    }
+
+    const called = new NewJavascript()
+</script>
+</html>
