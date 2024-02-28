@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clousers</title>
+</head>
+
+<body>
+    <div style="display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;">
+        <button style=" width: 6rem;
+        height: 3rem; border:2px solid black; margin-right: 20px; font-size: 15px; background-color: orange; cursor: pointer;" class="orange">🍊Orange</buttton>
+        <button style=" width: 6rem;
+        height: 3rem; border:2px solid black; font-size: 15px; background-color: blue; cursor: pointer" class="blue">🔵Blue</button>
+    </div>
+
+
+</body>
+<script>
+    function clickHandler(color) {
+
+        return function () {
+            document.body.style.backgroundColor = `${color}`
+        }
+    }
+
+    document.querySelector(".orange").addEventListener("click", clickHandler('orange'));
+    document.querySelector(".blue").addEventListener("click", clickHandler('blue'));
+
+</script>
+
+</html>
