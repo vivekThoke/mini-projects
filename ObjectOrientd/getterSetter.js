@@ -42,7 +42,7 @@ class Binding{
 }
 
 const used = new Binding();
-console.log(used.bind)
+// console.log(used.bind)
 
 class AccessControl{
     constructor(username){
@@ -61,4 +61,15 @@ class AccessControl{
 }
 
 const used2 = new AccessControl("partial")
-console.log(used2.user)
+// console.log(used2.user)
+
+
+function string(str){
+    let newStr = "";
+    for(let i = str.length - 1; i >= 0; i--){
+        newStr += str[i]
+    }
+    console.log(newStr)
+}
+
+string("hello")
